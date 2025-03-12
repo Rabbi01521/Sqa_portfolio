@@ -14,7 +14,7 @@ const Avatar3D = ({
   rotationSensitivity = 5,
   hoverEffect = true,
   clickEffect = true,
-  avatarUrl = "https://api.dicebear.com/7.x/avataaars/svg?seed=qa-engineer&backgroundColor=b6e3f4",
+  avatarUrl = "https://api.dicebear.com/7.x/avataaars/svg?seed=rabbi&backgroundColor=b6e3f4",
 }: Avatar3DProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [rotation, setRotation] = useState({ x: 0, y: 0 });

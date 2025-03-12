@@ -24,7 +24,7 @@ const Navbar = ({
     { label: "Testimonials", href: "#testimonials" },
     { label: "Contact", href: "#contact" },
   ],
-  logoText = "John Doe",
+  logoText = "Md. Rabbi Hasan",
 }: NavbarProps) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

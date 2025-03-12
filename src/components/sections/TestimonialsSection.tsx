@@ -18,25 +18,25 @@ const TestimonialsSection = ({
   testimonials = [
     {
       quote:
-        "John's attention to detail and thorough testing approach helped us identify critical issues before our product launch. His automation framework reduced our testing time by 60%.",
-      author: "Sarah Johnson",
-      position: "CTO",
-      company: "TechInnovate",
+        "Rabbi's attention to detail and thorough testing approach helped us identify critical issues before our product launch. His WordPress development skills also contributed to an excellent user experience.",
+      author: "Saiful Rahman",
+      position: "Chairman",
+      company: "Backspace International Ltd",
       avatar:
-        "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah&backgroundColor=b6e3f4",
+        "https://api.dicebear.com/7.x/avataaars/svg?seed=Saiful&backgroundColor=b6e3f4",
     },
     {
       quote:
-        "Working with John transformed our QA process. His methodical approach to test planning and execution significantly improved our product quality and customer satisfaction.",
-      author: "Michael Chen",
-      position: "Product Manager",
-      company: "SoftSolutions Inc.",
+        "Working with Rabbi transformed our web development process. His methodical approach to testing and implementation significantly improved our product quality and customer satisfaction.",
+      author: "Sayem Khan",
+      position: "PS to Member (Development)",
+      company: "Rajuk, Dhaka",
       avatar:
-        "https://api.dicebear.com/7.x/avataaars/svg?seed=Michael&backgroundColor=c0aede",
+        "https://api.dicebear.com/7.x/avataaars/svg?seed=Sayem&backgroundColor=c0aede",
     },
     {
       quote:
-        "John's expertise in performance testing helped us identify and resolve bottlenecks that would have impacted thousands of users. His work was instrumental to our successful launch.",
+        "Rabbi's expertise in performance testing helped us identify and resolve bottlenecks that would have impacted our users. His work was instrumental to our successful website launch.",
       author: "Emily Rodriguez",
       position: "Engineering Director",
       company: "DataFlow Systems",
@@ -45,7 +45,7 @@ const TestimonialsSection = ({
     },
     {
       quote:
-        "The test automation framework John implemented has been a game-changer for our development team. We've reduced regression testing time by 70% while improving coverage.",
+        "The test automation framework Rabbi implemented has been a game-changer for our development team. We've reduced regression testing time significantly while improving coverage.",
       author: "David Kim",
       position: "Lead Developer",
       company: "WebTech Solutions",

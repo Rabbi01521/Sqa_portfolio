@@ -13,12 +13,11 @@ interface FooterProps {
 }
 
 const Footer = ({
-  name = "John Doe",
+  name = "Md. Rabbi Hasan",
   socialLinks = {
-    github: "https://github.com/johndoe-qa",
-    linkedin: "https://linkedin.com/in/johndoe-qa",
-    twitter: "https://twitter.com/johndoe_qa",
-    email: "john.doe@qaengineer.com",
+    github: "https://github.com",
+    linkedin: "https://linkedin.com",
+    email: "rabbihasan0113@gmail.com",
   },
 }: FooterProps) => {
   const currentYear = new Date().getFullYear();

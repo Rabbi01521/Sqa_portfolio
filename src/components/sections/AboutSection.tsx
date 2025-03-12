@@ -14,40 +14,41 @@ interface AboutSectionProps {
 }
 
 const AboutSection = ({
-  bio = "I'm a creative developer with a passion for building immersive digital experiences. With a background in both design and development, I bring a unique perspective to every project.",
+  bio = "I want to build a professional career with a national and multinational company. I always try and will try to apply constructive deviation in my professional and personal life. With a background in QA testing, web automation, and WordPress development, I bring a comprehensive skill set to every project.",
   skills = [
+    "Manual Testing",
+    "Selenium",
+    "Cypress",
+    "Postman",
+    "JMeter",
+    "API Testing",
+    "Performance Testing",
+    "JavaScript",
+    "Python",
     "React",
-    "TypeScript",
-    "Three.js",
-    "WebGL",
-    "Framer Motion",
-    "Tailwind CSS",
-    "Node.js",
-    "Next.js",
-    "GraphQL",
-    "UI/UX Design",
+    "WordPress",
   ],
   experience = [
     {
-      role: "Senior Frontend Developer",
-      company: "TechCorp Inc.",
-      period: "2021 - Present",
+      role: "Junior Executive - WordPress Developer",
+      company: "Backspace",
+      period: "11/2023 - 09/2024",
       description:
-        "Lead developer for interactive web applications with focus on 3D experiences and animations.",
+        "Manage website maintenance, updates, and troubleshooting. Ensure mobile and cross-browser compatibility. Implement basic SEO practices and optimize site performance.",
     },
     {
-      role: "UI/UX Developer",
-      company: "DesignStudio",
-      period: "2018 - 2021",
+      role: "Tech Audit Engineer",
+      company: "META",
+      period: "10/2022 - 08/2023",
       description:
-        "Created engaging user interfaces and experiences for various clients across different industries.",
+        "Conducted audits of technical systems to identify vulnerabilities. Performed testing and validation of technical controls, including penetration testing and vulnerability assessments.",
     },
     {
-      role: "Web Developer",
-      company: "StartupX",
-      period: "2016 - 2018",
+      role: "NOC Engineer",
+      company: "Mango Teleservices Ltd.",
+      period: "04/2022 - 07/2022",
       description:
-        "Developed responsive websites and web applications for early-stage startups.",
+        "Established and maintained network performance. Built network configurations and connections. Secured network system by establishing and enforcing policies.",
     },
   ],
 }: AboutSectionProps) => {

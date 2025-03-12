@@ -23,58 +23,64 @@ interface TestingSectionProps {
 const TestingSection = ({
   testingTypes = [
     {
-      title: "Functional Testing",
+      title: "Manual Testing",
       description:
-        "Comprehensive testing to ensure all features work as expected across different scenarios and user flows.",
+        "Comprehensive testing including requirement analysis, test planning, functional and GUI testing, with detailed test case writing and execution.",
       icon: <CheckCircle className="h-8 w-8 text-green-400" />,
-      tools: ["Selenium", "Cypress", "TestNG", "JUnit", "Manual Testing"],
+      tools: [
+        "Test Planning",
+        "Requirement Analysis",
+        "Bug Reporting",
+        "Test Execution",
+        "Test Metrics",
+      ],
     },
     {
       title: "API Testing",
       description:
-        "Thorough validation of API endpoints, request/response structures, error handling, and integration points.",
+        "CRUD operations using dynamic parameters and HTML report generation using Newman for comprehensive API testing documentation.",
       icon: <Code className="h-8 w-8 text-blue-400" />,
-      tools: ["Postman", "REST Assured", "SoapUI", "Swagger", "JMeter"],
+      tools: [
+        "Postman",
+        "Newman",
+        "JavaScript",
+        "API Testing",
+        "CRUD Operations",
+      ],
     },
     {
       title: "Performance Testing",
       description:
-        "Evaluating system performance under various load conditions to identify bottlenecks and optimize response times.",
+        "Load and stress testing for web applications to identify performance bottlenecks and ensure optimal user experience under heavy traffic conditions.",
       icon: <Activity className="h-8 w-8 text-yellow-400" />,
-      tools: ["JMeter", "Gatling", "LoadRunner", "New Relic", "Lighthouse"],
+      tools: [
+        "JMeter",
+        "BlazeMeter",
+        "Load Testing",
+        "Stress Testing",
+        "Performance Analysis",
+      ],
     },
     {
-      title: "Database Testing",
+      title: "Web Automation",
       description:
-        "Validating data integrity, stored procedures, and database performance to ensure reliable data operations.",
+        "Automated test scripts for web applications, including login verification, product cart functionality, and checkout processes to ensure seamless user journeys.",
       icon: <Database className="h-8 w-8 text-purple-400" />,
-      tools: ["SQL", "MongoDB Tools", "Liquibase", "DbUnit", "Data Generators"],
+      tools: ["Selenium", "Cypress", "POM", "JavaScript", "Java"],
     },
     {
-      title: "Security Testing",
+      title: "WordPress Development",
       description:
-        "Identifying vulnerabilities and ensuring the application is protected against common security threats.",
+        "Website development and maintenance with focus on mobile compatibility, SEO optimization, and performance improvements for enhanced user experience.",
       icon: <Server className="h-8 w-8 text-red-400" />,
-      tools: [
-        "OWASP ZAP",
-        "Burp Suite",
-        "Nessus",
-        "SonarQube",
-        "Dependency Check",
-      ],
+      tools: ["WordPress", "PHP", "JavaScript", "SEO", "Responsive Design"],
     },
     {
-      title: "End-to-End Testing",
+      title: "Project Management",
       description:
-        "Validating complete user workflows from start to finish across all integrated components and systems.",
+        "Agile methodology implementation with Jira for project tracking, along with version control using Git/GitHub for efficient collaboration.",
       icon: <Layers className="h-8 w-8 text-indigo-400" />,
-      tools: [
-        "Selenium",
-        "Cypress",
-        "Playwright",
-        "TestCafe",
-        "Robot Framework",
-      ],
+      tools: ["Jira", "Agile", "Git/GitHub", "SDLC", "STLC"],
     },
   ],
 }: TestingSectionProps) => {

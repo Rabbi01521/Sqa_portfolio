@@ -191,7 +191,9 @@ const HeroSection = ({
       <ScrollIndicator />
 
       {/* Add CSS for animation */}
-      <style jsx>{`
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
         @keyframes gradient {
           0% {
             background-position: 0% 50%;
@@ -207,7 +209,9 @@ const HeroSection = ({
           background-size: 200% auto;
           animation: gradient 4s ease infinite;
         }
-      `}</style>
+      `,
+        }}
+      />
     </section>
   );
 };

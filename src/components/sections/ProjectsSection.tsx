@@ -23,78 +23,111 @@ const ProjectsSection = ({
   projects = [
     {
       id: 1,
-      title: "E-commerce Test Automation Framework",
+      title: "API Testing Using Postman",
       description:
-        "Developed a comprehensive Selenium-based test automation framework for an e-commerce platform, reducing regression testing time by 70%.",
+        "Implemented CRUD operations using dynamic parameters and generated HTML reports using Newman for comprehensive API testing documentation.",
       image:
         "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
-      technologies: ["Selenium", "Java", "TestNG", "Jenkins", "Allure Reports"],
+      technologies: [
+        "Postman",
+        "Newman",
+        "JavaScript",
+        "API Testing",
+        "CRUD Operations",
+      ],
       liveUrl: "#",
       githubUrl: "#",
       featured: true,
     },
     {
       id: 2,
-      title: "Banking API Test Suite",
+      title: "Performance Testing Using JMeter",
       description:
-        "Created an extensive API testing suite for a banking application, ensuring data integrity and security compliance across all endpoints.",
+        "Conducted load and stress testing for web applications to identify performance bottlenecks and ensure optimal user experience under heavy traffic conditions.",
       image:
         "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=800&q=80",
-      technologies: ["Postman", "Newman", "JavaScript", "Jenkins", "OAuth"],
+      technologies: [
+        "JMeter",
+        "BlazeMeter",
+        "Load Testing",
+        "Stress Testing",
+        "Performance Analysis",
+      ],
       liveUrl: "#",
       githubUrl: "#",
       featured: true,
     },
     {
       id: 3,
-      title: "Healthcare App Performance Testing",
+      title: "Web Automation Using Selenium",
       description:
-        "Implemented performance testing for a healthcare application, identifying and resolving bottlenecks to support 10,000+ concurrent users.",
+        "Developed automated test scripts for web applications, including login verification, product cart functionality, and checkout processes to ensure seamless user journeys.",
       image:
         "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
-      technologies: ["JMeter", "Grafana", "InfluxDB", "AWS", "Docker"],
+      technologies: [
+        "Selenium",
+        "Java",
+        "TestNG",
+        "Web Automation",
+        "E-commerce Testing",
+      ],
       liveUrl: "#",
       githubUrl: "#",
       featured: true,
     },
     {
       id: 4,
-      title: "Mobile App Automation Framework",
+      title: "Web Automation Using Cypress",
       description:
-        "Built a cross-platform mobile testing framework using Appium, supporting both iOS and Android testing with a single codebase.",
+        "Implemented Page Object Model (POM) architecture for test automation, creating user page and login page tests with improved maintainability and scalability.",
       image:
         "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&q=80",
-      technologies: ["Appium", "Java", "TestNG", "Browserstack", "Maven"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      id: 5,
-      title: "CI/CD Pipeline for Test Automation",
-      description:
-        "Designed and implemented a CI/CD pipeline that automatically runs tests on code commits and generates detailed reports for stakeholders.",
-      image:
-        "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&q=80",
       technologies: [
-        "Jenkins",
-        "Docker",
-        "GitHub Actions",
-        "Selenium Grid",
-        "Allure",
+        "Cypress",
+        "JavaScript",
+        "POM",
+        "Web Automation",
+        "Front-end Testing",
       ],
       liveUrl: "#",
       githubUrl: "#",
+      featured: true,
+    },
+    {
+      id: 5,
+      title: "Manual Testing Project",
+      description:
+        "Conducted comprehensive manual testing including requirement analysis, test planning, functional and GUI testing, with detailed test case writing and execution.",
+      image:
+        "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&q=80",
+      technologies: [
+        "Test Planning",
+        "Requirement Analysis",
+        "Bug Reporting",
+        "Test Execution",
+        "Test Metrics",
+      ],
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: true,
     },
     {
       id: 6,
-      title: "Security Testing Framework",
+      title: "WordPress Website Development",
       description:
-        "Developed an automated security testing framework to identify vulnerabilities in web applications using industry-standard tools and custom scripts.",
+        "Developed and maintained WordPress websites with focus on mobile compatibility, SEO optimization, and performance improvements for enhanced user experience.",
       image:
         "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80",
-      technologies: ["OWASP ZAP", "Python", "Burp Suite", "Docker", "Jenkins"],
+      technologies: [
+        "WordPress",
+        "PHP",
+        "JavaScript",
+        "SEO",
+        "Responsive Design",
+      ],
       liveUrl: "#",
       githubUrl: "#",
+      featured: true,
     },
   ],
 }: ProjectsSectionProps) => {

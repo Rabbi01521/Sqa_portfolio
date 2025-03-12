@@ -22,13 +22,12 @@ interface ContactSectionProps {
 
 const ContactSection = ({
   contactInfo = {
-    email: "hello@johndoe.com",
-    phone: "+1 (555) 123-4567",
-    location: "San Francisco, CA",
+    email: "rabbihasan0113@gmail.com",
+    phone: "01521569967",
+    location: "Khilgaon Dhaka, Bangladesh",
     socialLinks: {
-      github: "https://github.com/johndoe",
-      linkedin: "https://linkedin.com/in/johndoe",
-      twitter: "https://twitter.com/johndoe",
+      github: "https://github.com",
+      linkedin: "https://linkedin.com",
     },
   },
 }: ContactSectionProps) => {
