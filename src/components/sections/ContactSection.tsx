@@ -1,8 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Button } from "../ui/button";
-import { Input } from "../ui/input";
-import { Textarea } from "../ui/textarea";
+import ContactForm from "../contact/ContactForm";
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from "lucide-react";
 
 interface ContactInfo {
@@ -66,58 +64,7 @@ const ContactSection = ({
             <h3 className="text-2xl font-semibold text-white mb-6">
               Send a Message
             </h3>
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="space-y-2">
-                  <label htmlFor="name" className="text-sm text-gray-400">
-                    Your Name
-                  </label>
-                  <Input
-                    id="name"
-                    placeholder="John Doe"
-                    className="bg-gray-700/50 border-gray-600 text-white placeholder:text-gray-500 focus-visible:ring-indigo-500"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <label htmlFor="email" className="text-sm text-gray-400">
-                    Your Email
-                  </label>
-                  <Input
-                    id="email"
-                    type="email"
-                    placeholder="john@example.com"
-                    className="bg-gray-700/50 border-gray-600 text-white placeholder:text-gray-500 focus-visible:ring-indigo-500"
-                  />
-                </div>
-              </div>
-              <div className="space-y-2">
-                <label htmlFor="subject" className="text-sm text-gray-400">
-                  Subject
-                </label>
-                <Input
-                  id="subject"
-                  placeholder="Project Inquiry"
-                  className="bg-gray-700/50 border-gray-600 text-white placeholder:text-gray-500 focus-visible:ring-indigo-500"
-                />
-              </div>
-              <div className="space-y-2">
-                <label htmlFor="message" className="text-sm text-gray-400">
-                  Message
-                </label>
-                <Textarea
-                  id="message"
-                  placeholder="Tell me about your project..."
-                  rows={5}
-                  className="bg-gray-700/50 border-gray-600 text-white placeholder:text-gray-500 focus-visible:ring-indigo-500 resize-none"
-                />
-              </div>
-              <Button
-                type="submit"
-                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white"
-              >
-                Send Message
-              </Button>
-            </form>
+            <ContactForm />
           </motion.div>
 
           {/* Contact Information */}

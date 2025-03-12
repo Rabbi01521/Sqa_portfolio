@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
+import ProjectDetailsModal from "../projects/ProjectDetailsModal";
 
 interface Project {
   id: number;
@@ -199,15 +200,17 @@ const ProjectsSection = ({
                 </div>
 
                 <div className="flex justify-between items-center mt-4">
-                  <Button
-                    variant="link"
-                    className="text-indigo-400 p-0 h-auto font-normal hover:text-indigo-300"
-                    asChild
-                  >
-                    <a href="#project-details">
-                      View Details <ArrowRight className="ml-1 h-4 w-4" />
-                    </a>
-                  </Button>
+                  <ProjectDetailsModal
+                    project={project}
+                    trigger={
+                      <Button
+                        variant="link"
+                        className="text-indigo-400 p-0 h-auto font-normal hover:text-indigo-300"
+                      >
+                        View Details <ArrowRight className="ml-1 h-4 w-4" />
+                      </Button>
+                    }
+                  />
 
                   <div className="flex space-x-2">
                     {project.githubUrl && (

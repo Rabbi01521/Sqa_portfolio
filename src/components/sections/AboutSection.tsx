@@ -14,7 +14,8 @@ interface AboutSectionProps {
 }
 
 const AboutSection = ({
-  bio = "I want to build a professional career with a national and multinational company. I always try and will try to apply constructive deviation in my professional and personal life. With a background in QA testing, web automation, and WordPress development, I bring a comprehensive skill set to every project.",
+  bio = "I want to build a professional career with a national and multinational company where I can apply my expertise in QA testing, web automation, and WordPress development. With a passion for ensuring software quality and creating exceptional user experiences, I bring a unique blend of technical skills and attention to detail to every project I undertake.\n\nMy journey in technology began with a strong foundation in programming fundamentals, which evolved into specialized knowledge in testing methodologies and web development. I excel at identifying potential issues before they impact end-users, implementing robust automation frameworks, and developing responsive, user-friendly websites.\n\nI believe in continuous learning and staying updated with the latest industry trends and technologies. My approach combines analytical thinking with creative problem-solving, allowing me to tackle complex challenges efficiently. I'm particularly interested in the intersection of quality assurance and user experience, where I can leverage my diverse skill set to create products that are both technically sound and delightful to use.",
+
   skills = [
     "Manual Testing",
     "Selenium",
